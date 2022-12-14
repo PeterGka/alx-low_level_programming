@@ -1,4 +1,4 @@
-#Include <stdio.h>
+#include <stdio.h>
 /*
  *main program entry
  *
@@ -7,5 +7,5 @@
 int main(void)
 {
 	print("_putchar\n");
-	return(0);
+	return (0);
 }
