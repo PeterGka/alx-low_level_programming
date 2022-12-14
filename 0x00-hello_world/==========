@@ -1,0 +1,8 @@
+
+5-printf.c:3: ERROR: trailing whitespace
+
+total: 1 errors, 0 warnings, 9 lines checked
+
+5-printf.c:6: warning: No description found for return value of 'main'
+
+main                                                                  0;276;0c
