@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int maina(void)
+int main(void)
 {
 	int num;
 	char ch;
@@ -18,3 +18,4 @@ int maina(void)
 	putchar('\n');
 
 	return (0);
+}
