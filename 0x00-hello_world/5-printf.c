@@ -2,6 +2,7 @@
 /**
  *main-printf
  *Description
+ *return :0
  **/
 int main(void)
 {
