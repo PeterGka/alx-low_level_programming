@@ -1,4 +1,4 @@
-#include <stdio.h >
+#include <stdio.h>
 /**
  * main - The main entry point for the program
  *
