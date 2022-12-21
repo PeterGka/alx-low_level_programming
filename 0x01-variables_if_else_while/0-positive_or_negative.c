@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
-/* main program entry
+/**
+ * main - The main entry point for the program
  *
- *if control to check no. positive or negative
- *Always return 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,10 +15,10 @@ int main(void)
 	if (n > 0)
 		printf("is positive\n");
 	else
-		if(n == 0)
+		if (n == 0)
 			printf("is zero\n");
 		else
-			if(n < 0)
+			if (n < 0)
 				printf("is negative\n");
 	}
 	return (0);
