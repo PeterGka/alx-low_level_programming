@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *main-printf
+ *main-entry
  *Description
- *Description for main return 0
+ *
+ *Always return : 0
  **/
 int main(void)
 {
