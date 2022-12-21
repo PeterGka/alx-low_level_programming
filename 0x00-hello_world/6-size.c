@@ -1,11 +1,10 @@
-#nclude <stdio.h>
+#include <stdio.h>
 /**
- *main-print data type
- *Description
+ *main entry of the program
  *
- *Return 0
+ *Always return :0
  */
-struct my_struct
+int main(void)
 {
 char a;
 int b;
