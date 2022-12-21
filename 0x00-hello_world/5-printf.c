@@ -2,7 +2,7 @@
 /**
  *main-printf
  *Description
- *return :0
+ *Description for main return 0
  **/
 int main(void)
 {
