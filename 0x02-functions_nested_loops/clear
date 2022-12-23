@@ -1,0 +1,8 @@
+Debugger entered--Lisp error: (void-variable <stdio\.h>)
+  eval(<stdio\.h> nil)
+  elisp--eval-last-sexp(t)
+  eval-last-sexp(t)
+  eval-print-last-sexp(nil)
+  funcall-interactively(eval-print-last-sexp nil)
+  call-interactively(eval-print-last-sexp nil nil)
+  command-execute(eval-print-last-sexp)
