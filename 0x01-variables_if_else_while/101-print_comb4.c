@@ -7,7 +7,9 @@
 
 int main(void)
 {
-	for (int i = 0; i < 8; i++)
+	int i;
+
+	for (i = 0; i < 8; i++)
 	{
 
 		putchar(i / 4 + '0');
