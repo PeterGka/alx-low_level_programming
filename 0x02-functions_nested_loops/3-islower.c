@@ -1,33 +1,32 @@
-lude <ctype.h>
-
-
-
+#include "main.h"
 /**
-
- * _islower - checks if a character is lowercase
-
- * @c: the character to check
-
+ * main - check the code.
  *
-
- * Return: 1 if c is lowercase, 0 otherwise
-
+ * Return: Always 0.
  */
 
-int _islower(int c)
+int main(void)
+
 {
+	int r;
 
-	if (islower(c))
-	{
+	r = _islower('H');
 
-		return 1;
+	_putchar(r + '0');
 
-}
-	else
-	{
+	r = _islower('o');
 
-		return 0;
 
-	}
+	_putchar(r + '0');
+
+
+	r = _islower(108);
+
+	_putchar(r + '0');
+
+
+	_putchar('\n');
+
+	return (0);
 
 }
