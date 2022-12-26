@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - Prints aphabet 10 times
+ * print_alphabet_x10 - prints the alphabet 10 times
  *
- * Return: Always 0 (Success)
+ * This function prints the alphabet (a-z) 10 times, with each letter
+ * on a separate line.
  */
 
 void print_alphabet_x10(void)
