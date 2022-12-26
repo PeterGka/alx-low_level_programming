@@ -1,4 +1,4 @@
-#define "main.h"
+#include "main.h"
 /**
  *print aplhabet 10 times
  */
