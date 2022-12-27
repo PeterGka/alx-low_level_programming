@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ *main fuction is entry of program
+ *
+ *return 0 (success)
+ */
 int main(void)
 
 {
