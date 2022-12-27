@@ -23,10 +23,7 @@ int main(void)
 
 			putchar(' ');
 
-			putchar(j + '0');
-
-
-			putchar('\n');
+			putchar(j + '0','\n');
 
 		}
 
