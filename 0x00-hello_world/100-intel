@@ -1,3 +1,2 @@
 #!/bin/bash\n
-gcc -S $CFILE OUTPUTFILE=$(echo $CFILE | sed 's/.c/.s/')
-mv ${CFILE%.*}.s $OUTPUTFILE
+gcc -S $CFILE OUTPUTFILE=$(echo $CFILE | sed 's/.c/.s/') mv ${CFILE%.*}.s $OUTPUTFILE
