@@ -1,36 +1,43 @@
 #include <stdio.h>
 
+
+
 /**
- * main - The main entry point for the program
- *
+
+ * main - prints all possible combinations of single-digit numbers
+
  * Return: Always 0 (Success)
+
  */
 
 int main(void)
-{
-	int i,j;
 
-	for (i = 0; i < 10; i++)
+{
+
+	int n;
+
+
+
+	for (n = 48; n < 58; n++)
 
 	{
 
-		for (j = i + 1; j < 10; j++)
+		putchar(n);
 
+		if (n != 57)
 
 		{
-
-			putchar(i + '0');
 
 			putchar(',');
 
 			putchar(' ');
 
-			putchar(j + '0');
-
 		}
 
 	}
 
-	return 0;
+	putchar('\n');
+
+	return (0);
 
 }
